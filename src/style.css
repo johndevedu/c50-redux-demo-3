@@ -1,11 +1,14 @@
 .level-one {
   border: 1px red solid;
+  margin: 10px;
 }
 
 .level-two {
   border: 1px blue solid;
+  margin: 10px;
 }
 
 .level-three {
   border: 1px orange solid;
+  margin: 10px;
 }
