@@ -5,7 +5,7 @@ const initialState = [
   }
 ];
 
-const helloReducer = (state = initialState, action) => {
+export const helloReducer = (state = initialState, action) => {
   console.log(action);
 
   switch (action.type) {
@@ -23,9 +23,3 @@ const helloReducer = (state = initialState, action) => {
       return state;
   }
 };
-
-export default function demoApp(state = {}, action) {
-  return {
-    hellos: helloReducer(state.hellos, action)
-  };
-}

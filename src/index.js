@@ -5,7 +5,7 @@ import LevelOne from "./LevelOne";
 import "./style.css";
 import { Provider } from "react-redux";
 import { createStore } from "redux";
-import demoApp from "./reducer.js";
+import demoApp from "./reducers/index.js";
 
 const styles = {
   fontFamily: "sans-serif",
